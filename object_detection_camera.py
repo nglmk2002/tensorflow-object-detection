@@ -97,7 +97,8 @@ while True :
         category_index,
         use_normalized_coordinates=True,
         max_boxes_to_draw=200,
-        min_score_thresh = 0.6
+        min_score_thresh = 0.6,
+        agnostic_mode =False
     )
     #cv2.imshow("object detection",image_np_with_detections)
     #관제시스템의 경우 디스플레이 크면 거기에 맞게 조절해서 보여주도록 하는 코드
